@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cartita</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand:400,700&display=swap">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="envlope-wrapper">
+    <div id="envelope" class="close" tabindex="0" aria-label="Sobre con carta">
+      <div class="front flap"></div>
+      <div class="front pocket"></div>
+      <div class="letter">
+        <div class="words line1">Hola preciosa.</div>
+        <div class="words line2">Te deseo bonito día, te amo mucho💘</div>
+        <div class="words line3">Te mando besos.</div>
+         <div class="words line4">😘</div>
+      </div>
+      <div class="hearts">
+        <div class="heart a1"></div>
+        <div class="heart a2"></div>
+        <div class="heart a3"></div>
+      </div>
+      <div class="sparkles"></div>
+    </div>
+  </div>
+  <div class="reset">
+    <button id="open" class="pulse">Abre :)</button>
+    <button id="reset">Cierra</button>
+  </div>
+  <audio id="openSound" src="https://cdn.pixabay.com/audio/2022/07/26/audio_124bfa3b8f.mp3"></audio>
+  <audio id="closeSound" src="https://cdn.pixabay.com/audio/2022/07/26/audio_123bfa3b8f.mp3"></audio>
+
+  <div id="loveMessage" class="hidden">¡Eres mi persona favorita!💖 -Gema.</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
